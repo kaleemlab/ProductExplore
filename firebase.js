@@ -2,13 +2,13 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAV9GbaxgWYH7YkSIIXmO-POWEuviCE4Jo",
-    authDomain: "productexploreone.firebaseapp.com",
-    projectId: "productexploreone",
-    storageBucket: "productexploreone.appspot.com",
-    messagingSenderId: "295820649154",
-    appId: "1:295820649154:web:cb297899ea544952f7d15b",
-    measurementId: "G-P1DRTXRNE0"
+    apiKey: "YOUR-API-KEY-HERE",
+    authDomain: "YOUR-API-KEY-HERE",
+    projectId: "YOUR-API-KEY-HERE",
+    storageBucket: "YOUR-API-KEY-HERE",
+    messagingSenderId: "YOUR-API-KEY-HERE",
+    appId: "YOUR-API-KEY-HERE",
+    measurementId: "YOUR-API-KEY-HERE"
 };
 let Firebase;
 if (firebase.apps.length === 0) {
