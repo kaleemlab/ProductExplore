@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ProductExplore",
+    "slug": "ProductExplore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you upload your profile picture and share your product logo with the people."
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6202ED"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#6202ED"
+      },
+      "package": "app.productexplore.coderraja"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
